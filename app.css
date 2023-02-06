@@ -1,0 +1,41 @@
+body {
+	font-family:'Arial Black';
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+code {
+	font-size:0.88rem;
+}
+.control_buttons {
+	display: flex;
+	flex-direction: column;
+}
+#stopbutton {
+	visibility: hidden;
+}
+button {
+	width:10ch;
+	border-radius:16px;
+	background: none;
+	border: 1px solid black;
+	font-size: 1.32rem;
+	padding: 16px;
+	color: black;
+	transition: all 1.72s;
+	margin: 12px;
+}
+
+button:hover{
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+
+button:active{ scale: 1.2; }
